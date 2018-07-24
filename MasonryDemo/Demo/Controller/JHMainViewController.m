@@ -118,12 +118,7 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 7:
-        {
-            JHTest4VC * vc = [[JHTest4VC alloc]init];
-            [self.navigationController pushViewController:vc animated:YES];
-        }
-            break;
+      
         default:
             break;
     }
